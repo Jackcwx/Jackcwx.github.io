@@ -2,7 +2,17 @@ body {
   margin: 0px;
 }
 main {
-  margin: 20px;
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-wrap {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 3rem;
 }
 
 * {
@@ -11,6 +21,7 @@ main {
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
 }
+
 body {
   min-height: 100vh;
   background-color: rgb(80, 80, 80);
@@ -61,6 +72,24 @@ body {
 
 #check {
   display: none;
+}
+
+.blog-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.blog-post {
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0.5rem 1.2rem rbga(0, 0, 0, 0.2);
+  padding: 0.75rem 1.25rem;
+  background: white;
+}
+
+.post {
+  display: block;
 }
 
 @media (max-width: 642px) {
