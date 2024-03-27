@@ -12,23 +12,24 @@
 .banner {
   width: 100%;
   height: 125px;
+  padding: 20px;
   background-color: #3a3b3c;
   box-shadow: 5px black;
 }
 .navbar {
   width: 80%;
   margin: auto;
-  padding: 20px 0;
-  align-items: auto;
+  align-items: center;
+  font-size: 20px;
   justify-content: space-between;
   display: flex;
+  float: left;
 }
 .portrait {
-  padding: 20px;
   align-items: center;
-  width: 80px;
+  margin: 0 10px;
+  width: 120px;
   border-radius: 50%;
-  border: black;
   float: left;
 }
 .navbar ol li {
@@ -38,14 +39,51 @@
 }
 .navbar ol li a {
   text-decoration: none;
+  align-items: center;
   color: white;
   text-transform: uppercase;
   text-shadow: 3px 3px 3px black;
 }
 h1 {
   color: white;
+  align-items: center;
   font-size: 40px;
-  margin-right: 80px;
-  align-items: auto;
+  padding: 40px 0px 40px 0px;
   text-shadow: 3px 3px 3px black;
+}
+.dropbtn {
+  background-color: #3a3b3c;
+  color: white;
+  min-width: 120px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  font-size: 20px;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: grey;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: black;
 }
