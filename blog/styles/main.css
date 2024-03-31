@@ -15,6 +15,16 @@ main {
   padding: 80px 3rem;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  scale: 75%;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
 * {
   margin: 0;
   padding: 0;

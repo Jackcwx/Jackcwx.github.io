@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatable" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="/blog/styles/main.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -12,7 +12,7 @@
     <body>
       <!-- <img src="IMG_1427.jpg" class="portrait"> -->
       <header class="header">
-        <a href="index.html" class="title">My Foundations Journey</a>
+        <a href="../index.html" class="title">My Foundations Journey</a>
 
         <input type="checkbox" id="check" />
         <label for="check" class="icons">
@@ -21,8 +21,8 @@
         </label>
 
         <nav class="navbar">
-          <a href="tech.html">Tech</a>
-          <a href="code.html">Core</a>
+          <a href="/blog/tech.html">Tech</a>
+          <a href="/blog/code.html">Code</a>
         </nav>
       </header>
 
@@ -30,8 +30,32 @@
         <div class="page-wrap">
           <div class="blog-headers">
             <article class="blog-post blog" id="blog-posts">
-              <h2>Test1</h2>
-              <p>test paragraph for formatting</p>
+              <h2>Classes vs ids</h2>
+              <p>
+                classes and ids in html are used to organize styling in css,
+                classes allow styling to apply to any piece of code you tack the
+                class on to, whereas ids are used to style an individual item.
+                in the event I wanted all my paragraphs to look the same way,
+                but maybe I wanted the text of one to be green I would use a
+                paragraph class to standardize my webpage, and with the one
+                paragraph an id would be used to give it special rules<br />
+                classes and ids do very similar things but with different
+                applications a good rule of thumb is to think about how often
+                you will stylize something in that particular way, if you're
+                only going to do it to a single element on a page, use an id,
+                otherwise if the scale is large And you'll frequently be
+                referring to that format, use a class. <br />
+                on my webpage I've used a single id for the checkbox that allows
+                the menu to function when using a mobile device:
+              </p>
+              <img src="/blog/check.PNG" class="center" />
+              <p>
+                this is because there are conditions that only apply to that one
+                element of my navigation bar and won't be reused anywhere else.
+                whereas for example flexbox is used with standardized formatting
+                for all my blog posts.
+              </p>
+              <img src="/blog/flexbox.PNG" class="center" />
             </article>
           </div>
         </div>
