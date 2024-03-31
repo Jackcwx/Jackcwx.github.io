@@ -80,6 +80,12 @@ body {
   gap: 1rem;
 }
 
+.blog-headers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
 .blog-post {
   border-radius: 8px;
   border: 1px solid #eaeaea;
