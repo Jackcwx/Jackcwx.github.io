@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatable" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/blog/styles/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Jack's Dev Academy Blog</title>
+  <body>
+      <!-- <img src="IMG_1427.jpg" class="portrait"> -->
+    <header class="header">
+      <a href="../index.html" class="title">My Foundations Journey</a>
+
+      <input type="checkbox" id="check">
+      <label for="check" class="icons">
+        <i class='bx bx-expand-vertical' id="menu"></i>
+        <i class='bx bx-x' id="close"></i>
+      </label>
+
+      <nav class="navbar">
+        <a href="/blog/tech.html">Tech</a>
+        <a href="/blog/code.html">Code</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="page-wrap">
+        <div class="blog-headers">
+          <article class="blog-post blog" id="blog-posts">
+            <h2>Javascript DOM:</h2>
+            <p>
+              When creating a website html and css are used to build the structure of a website and dress it accordingly.
+              Whereas javascript is used to make your website interactive, make your buttons do things and make your text update in real time as a few examples.
+              An analogy for this could be a car, html is the body, engine and inner workings of the car
+              css is the paint and the upholstery and javascript is the wheel and pedals and other controls.
+            </p>
+            <p>
+              Control flow is the order in which code is executed in your program, in layman's terms the computer reads what you've told it to
+              do in order from line one to line x. You can think of this as if you're reading a book, 
+              you'd never read a book backwards unless it explicitly told you that was the intended order to read it in,
+              as the computer will read the instructions you give it in order from top to bottom of the page.
+              The computer will always follow this rule unless it comes across some structure that tells it to do otherwise, such as a loop. 
+            </p>
+            <p>
+              Loops iterate through items that you tell them to, such as a list of people, and execute commands on those items that you specify. 
+              For instance if I wanted to find all the members of a class with a grade of below an A,
+              I could tell the computer to loop through the list of class members, find the grade of the class member
+              , and if the grade is not an A add them to a list of class members that will be returned to me when the loop finishes.
+              If the military was to draft people for war for instance, they would want to find able bodied individuals.
+              Similarly to how a loop functions applicants would be checked and either added to an acceptance list or denied
+            </p>
+            <p>
+              The DOM is an interface that treats an html document as a tree structure with node objects representing each part of that document.
+              It can be helpful in visualizing the components of your website as well as locating them by their ID,
+              class, tag mane, etc. the DOM can also be used to make changes to the code in your web browser
+              without affecting your actual document, therefore letting you test stuff before implementing it.
+            </p>
+            <p>
+              Objects and arrays are both used to hold information, objects can hold many named variables whereas arrays are a collection of items,
+              which themselves can be objects. When retrieving information from an array the item in the
+              collection is specified, item one for example, and the method is called to retrieve that variable.
+              With objects the named variable is specified when being called for and is retrieved via a few methods,
+              objectName.propertyName being one example.
+            </p>
+            <p>
+              In javascript a function is a block of code written to perform a particular task, the aforementioned list example would be written in a function that creates a new list,
+              iterates through the list of class members, then returns a newly filled list containing all the students
+              who got a specified grade. Functions are useful in accomplishing tasks in a neat blocked out way as well as breaking problems down.
+            </p>
+          </article>
+        </div>
+      </div>
+    </main>
+    
+  </body>
+</html>
